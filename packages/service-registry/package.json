@@ -1,0 +1,29 @@
+{
+  "name": "service-registery",
+  "version": "0.0.0",
+  "description": "A service registery for micro services for weelog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/run | bunyan -o short"
+  },
+  "keywords": [
+    "weelog",
+    "microservice",
+    "service",
+    "service-registery"
+  ],
+  "author": "easa",
+  "license": "MIT",
+  "repository": "https://github.com/easa/weelog",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bunyan": "^1.8.12",
+    "express": "^4.17.1",
+    "semver": "^7.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}

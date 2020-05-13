@@ -1,0 +1,14 @@
+{
+  "name": "weelog-app-pwa",
+  "version": "0.0.0",
+  "description": "PWA of weelog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["weelog", "PWA", "front-end"],
+  "author": "easa",
+  "license": "MIT",
+  "repository": "https://github.com/easa/weelog",
+  "private": true
+}

@@ -1,0 +1,29 @@
+{
+  "name": "weelog",
+  "version": "0.0.0",
+  "description": "A text based social network with a limit on the number of characters",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "https://github.com/easa/weelog.git",
+  "author": "easa <eisanodehi@gmail.com>",
+  "keywords": [
+    "weelog",
+    "microservice",
+    "MERN-stack"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run start:service-registry | npm run start:weelog-app-api | npm run start:weelog-post-service",
+    "start:service-registry": "cd packages/service-registry && npm start       > logs/%date:~4,2%%date:~7,2%%date:~10,2%-%time:~0,2%%time:~3,2%%time:~6,2%.log",
+    "start:weelog-app-api": "cd packages/weelog-app-api && npm start           > logs/%date:~4,2%%date:~7,2%%date:~10,2%-%time:~0,2%%time:~3,2%%time:~6,2%.log",
+    "start:weelog-post-service": "cd packages/weelog-post-service && npm start > logs/%date:~4,2%%date:~7,2%%date:~10,2%-%time:~0,2%%time:~3,2%%time:~6,2%.log"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
