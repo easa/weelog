@@ -29,4 +29,4 @@ A text based social network with a limit on the number of characters
 
 ## Thanks
 
-> Special thanks to this beautiful man @danielkhan and his beautiful tutorial to share his knowledge about microservice architecture
+Special thanks to this beautiful man @danielkhan and his beautiful tutorial to share his knowledge about microservice architecture
