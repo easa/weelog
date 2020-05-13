@@ -2,11 +2,9 @@
 
 A text based social network with a limit on the number of characters
 
-<p align="center">
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/easa/weelog?color=000fbf&style=flat-square)  
 #microservice #MERN_stack #nodejs
 > NOTHING WORKS. IT'S VERSION 0.0.0
-</p>
 
 ## Projects
 
